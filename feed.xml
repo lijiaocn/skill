@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2019-08-25T00:50:16+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">奇技淫巧</title><entry><title type="html">KasperSky卡巴斯基杀毒软件激活码、2019无限试用免费版下载，破解版key</title><link href="https://www.lijiaocn.com/skill/license/2019/07/31/ka-ba-si-ji/" rel="alternate" type="text/html" title="KasperSky卡巴斯基杀毒软件激活码、2019无限试用免费版下载，破解版key" /><published>2019-07-31T21:41:07+08:00</published><updated>2019-07-31T21:41:07+08:00</updated><id>https://www.lijiaocn.com/skill/license/2019/07/31/ka-ba-si-ji</id><content type="html" xml:base="https://www.lijiaocn.com/skill/license/2019/07/31/ka-ba-si-ji/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2019-08-26T19:00:17+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">奇技淫巧</title><entry><title type="html">关闭VirtualBox虚拟机界面时，虚拟机继续保持运行的方法</title><link href="https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run/" rel="alternate" type="text/html" title="关闭VirtualBox虚拟机界面时，虚拟机继续保持运行的方法" /><published>2019-08-26T18:11:11+08:00</published><updated>2019-08-26T19:00:02+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run/">&lt;h2 id=&quot;本篇目录&quot;&gt;本篇目录&lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#本篇目录&quot; id=&quot;markdown-toc-本篇目录&quot;&gt;本篇目录&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#说明&quot; id=&quot;markdown-toc-说明&quot;&gt;说明&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#无界面启动&quot; id=&quot;markdown-toc-无界面启动&quot;&gt;无界面启动&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#关闭界面时虚拟机保持运行&quot; id=&quot;markdown-toc-关闭界面时虚拟机保持运行&quot;&gt;关闭界面时虚拟机保持运行&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#参考&quot; id=&quot;markdown-toc-参考&quot;&gt;参考&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+
+&lt;p&gt;VirtualBox 的虚拟机支持无界面启动，如果点开虚拟机了界面，也可以在保持虚拟机运行的情况下关闭界面&lt;/p&gt;
+
+&lt;h2 id=&quot;无界面启动&quot;&gt;无界面启动&lt;/h2&gt;
+
+&lt;p&gt;无界面启动很简单，用下面的方式启动即可，点击启动-&amp;gt;选择无界面启动：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/skill/vbox.png&quot; alt=&quot;virtualbox无界面启动&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;关闭界面时虚拟机保持运行&quot;&gt;关闭界面时虚拟机保持运行&lt;/h2&gt;
+
+&lt;p&gt;如果双击使用无界面方式启动的虚拟机时，会重新弹出界面。 这时候直接点击“X”时，会提示关闭虚拟机。&lt;/p&gt;
+
+&lt;p&gt;如果不想关闭虚拟机，只关闭界面，虚拟机继续在后台运行，用 “detach GUI”：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/skill/vbox2.png&quot; alt=&quot;virtualbox无界面启动&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;上图是 mac 版的 virtualbox，在 windows 版也有相应方法。&lt;/p&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lijiaocn.com&quot; title=&quot;李佶澳的博客&quot;&gt;李佶澳的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>李佶澳</name></author><category term="virtualbox" /><summary type="html">本篇目录 本篇目录 说明 无界面启动 关闭界面时虚拟机保持运行 参考 说明 VirtualBox 的虚拟机支持无界面启动，如果点开虚拟机了界面，也可以在保持虚拟机运行的情况下关闭界面 无界面启动 无界面启动很简单，用下面的方式启动即可，点击启动-&amp;gt;选择无界面启动： 关闭界面时虚拟机保持运行 如果双击使用无界面方式启动的虚拟机时，会重新弹出界面。 这时候直接点击“X”时，会提示关闭虚拟机。 如果不想关闭虚拟机，只关闭界面，虚拟机继续在后台运行，用 “detach GUI”： 上图是 mac 版的 virtualbox，在 windows 版也有相应方法。 参考 李佶澳的博客</summary></entry><entry><title type="html">KasperSky卡巴斯基杀毒软件激活码、2019无限试用免费版下载，破解版key</title><link href="https://www.lijiaocn.com/skill/license/2019/07/31/ka-ba-si-ji/" rel="alternate" type="text/html" title="KasperSky卡巴斯基杀毒软件激活码、2019无限试用免费版下载，破解版key" /><published>2019-07-31T21:41:07+08:00</published><updated>2019-07-31T21:41:07+08:00</updated><id>https://www.lijiaocn.com/skill/license/2019/07/31/ka-ba-si-ji</id><content type="html" xml:base="https://www.lijiaocn.com/skill/license/2019/07/31/ka-ba-si-ji/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
 
 &lt;p&gt;如果方法失效，可以考虑使用淘宝上的服务：&lt;/p&gt;
 
@@ -816,29 +850,4 @@ DBXYD-TF477-46YM4-W74MH-6YDQ8
 
 &lt;p&gt;世界第一的专业数码扫描管理工具，可在一瞬间完成文字图片到电子数码文档之间的转换。&lt;/p&gt;
 
-&lt;p&gt;新版Paperport 14为了更加方便用户进行文档汇编、排栈及非排栈的操作，它特意设计一款独特的、可分离的桌面，该桌面可同时显示个人主页及文档的缩微图，用户可利用它将整个PDF文档或部分PDF文档进行复制和粘贴，且当文字处理、电子表格或演示文件涉及到扫描图或普通图片时，桌面可自动将其转换为可定制PDF文档的快速汇编。&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 说明 如果注册码失效，可以考虑使用淘宝上的服务： 数字文档管理软件 Nuance PaperPort Pro 14.5/9 正版注册码【在售价】16.00 元 【立即下单】点击链接立即下单 世界第一的专业数码扫描管理工具，可在一瞬间完成文字图片到电子数码文档之间的转换。 新版Paperport 14为了更加方便用户进行文档汇编、排栈及非排栈的操作，它特意设计一款独特的、可分离的桌面，该桌面可同时显示个人主页及文档的缩微图，用户可利用它将整个PDF文档或部分PDF文档进行复制和粘贴，且当文字处理、电子表格或演示文件涉及到扫描图或普通图片时，桌面可自动将其转换为可定制PDF文档的快速汇编。</summary></entry><entry><title type="html">万彩动画大师、万彩录屏大师、万彩影像大师、万彩演示大师注册码</title><link href="https://www.lijiaocn.com/skill/license/2019/07/20/wancai/" rel="alternate" type="text/html" title="万彩动画大师、万彩录屏大师、万彩影像大师、万彩演示大师注册码 " /><published>2019-07-20T12:15:21+08:00</published><updated>2019-07-20T13:14:01+08:00</updated><id>https://www.lijiaocn.com/skill/license/2019/07/20/wancai</id><content type="html" xml:base="https://www.lijiaocn.com/skill/license/2019/07/20/wancai/">&lt;h2 id=&quot;本篇目录&quot;&gt;本篇目录&lt;/h2&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#本篇目录&quot; id=&quot;markdown-toc-本篇目录&quot;&gt;本篇目录&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#说明&quot; id=&quot;markdown-toc-说明&quot;&gt;说明&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#注册码&quot; id=&quot;markdown-toc-注册码&quot;&gt;注册码&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
-
-&lt;p&gt;如果注册码失效，可以考虑使用淘宝上的服务：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;万彩动画大师、万彩录屏大师、万彩影像大师、万彩演示大师注册码【在售价】10.00 元&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://s.click.taobao.com/t?e=m%3D2%26s%3DIbltjj%2Bce7IcQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67pxqgmH5bt4GFfrEfJ4hp2pFzjN9hD2WgqNloZYdv3EG6YKsWt4FgAKVoz8w%2F8flOF9EeTtntI440rU7bvMfl7Hu1jSK%2FixTzBL0jf%2BOsCRczRD18rVfQC7Qi04ZWz7rmb2fXqmq6%2FU7MonwkGxTu%2BOStB7K5E7iAA%3D%3D&amp;amp;scm=null&amp;amp;pvid=null&amp;amp;app_pvid=59590_11.21.78.122_464_1563596177060&amp;amp;ptl=floorId:17741;app_pvid:59590_11.21.78.122_464_1563596177060&amp;amp;union_lens=lensId:0b0f6818_0e81_16c0d77f477_c581&quot;&gt;【立即下单】点击链接立即下单&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;实用性很强的动画视频制作神器，操作比 AE、Flash、Premiere 简单得多，适用于制作动画宣传片、微信动画视频、广告片、营销动画、趣味课件动画、微课视频等，无论是新手还是专业人士，都同样适用。&lt;/p&gt;
-
-&lt;h2 id=&quot;注册码&quot;&gt;注册码&lt;/h2&gt;
-
-&lt;p&gt;异次元专用超级激活码：OWNI-MGY4-ZDHJ-NGU1-YWI3&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 注册码 说明 如果注册码失效，可以考虑使用淘宝上的服务： 万彩动画大师、万彩录屏大师、万彩影像大师、万彩演示大师注册码【在售价】10.00 元 【立即下单】点击链接立即下单 实用性很强的动画视频制作神器，操作比 AE、Flash、Premiere 简单得多，适用于制作动画宣传片、微信动画视频、广告片、营销动画、趣味课件动画、微课视频等，无论是新手还是专业人士，都同样适用。 注册码 异次元专用超级激活码：OWNI-MGY4-ZDHJ-NGU1-YWI3</summary></entry></feed>
+&lt;p&gt;新版Paperport 14为了更加方便用户进行文档汇编、排栈及非排栈的操作，它特意设计一款独特的、可分离的桌面，该桌面可同时显示个人主页及文档的缩微图，用户可利用它将整个PDF文档或部分PDF文档进行复制和粘贴，且当文字处理、电子表格或演示文件涉及到扫描图或普通图片时，桌面可自动将其转换为可定制PDF文档的快速汇编。&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 说明 如果注册码失效，可以考虑使用淘宝上的服务： 数字文档管理软件 Nuance PaperPort Pro 14.5/9 正版注册码【在售价】16.00 元 【立即下单】点击链接立即下单 世界第一的专业数码扫描管理工具，可在一瞬间完成文字图片到电子数码文档之间的转换。 新版Paperport 14为了更加方便用户进行文档汇编、排栈及非排栈的操作，它特意设计一款独特的、可分离的桌面，该桌面可同时显示个人主页及文档的缩微图，用户可利用它将整个PDF文档或部分PDF文档进行复制和粘贴，且当文字处理、电子表格或演示文件涉及到扫描图或普通图片时，桌面可自动将其转换为可定制PDF文档的快速汇编。</summary></entry></feed>
