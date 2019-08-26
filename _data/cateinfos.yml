@@ -4,3 +4,5 @@ member:
   name: 会员注册
 movie: 
   name: 影视资源
+skill:
+  name: 使用技巧
