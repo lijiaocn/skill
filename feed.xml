@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-02T19:00:44+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">关闭VirtualBox虚拟机界面时，虚拟机继续保持运行的方法</title><link href="https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run/" rel="alternate" type="text/html" title="关闭VirtualBox虚拟机界面时，虚拟机继续保持运行的方法" /><published>2019-08-26T18:11:11+08:00</published><updated>2019-08-26T19:00:02+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run/">&lt;h2 id=&quot;本篇目录&quot;&gt;本篇目录&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-02T19:13:11+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">Intellij IDEA 关闭拼写检查的方法</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect/" rel="alternate" type="text/html" title="Intellij IDEA 关闭拼写检查的方法" /><published>2020-02-02T19:03:09+08:00</published><updated>2020-02-02T19:03:09+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+
+&lt;p&gt;Intellij IDEA 的拼写检查有时候很烦人，代码中的命名经常不是标准单词，IDEA 的拼写检查会给这些命名添加波浪线，导致外观很不清爽。建议关闭拼写检查功能：&lt;/p&gt;
+
+&lt;p&gt;打开设置，Editor &amp;gt; Inspections，勾选掉Spelling：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/article/idealspell.webp&quot; alt=&quot;ideal拼写检查&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lijiaocn.com&quot; title=&quot;李佶澳的博客&quot;&gt;李佶澳的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>李佶澳</name></author><category term="idea" /><summary type="html">说明 Intellij IDEA 的拼写检查有时候很烦人，代码中的命名经常不是标准单词，IDEA 的拼写检查会给这些命名添加波浪线，导致外观很不清爽。建议关闭拼写检查功能： 打开设置，Editor &amp;gt; Inspections，勾选掉Spelling： 参考 李佶澳的博客</summary></entry><entry><title type="html">关闭VirtualBox虚拟机界面时，虚拟机继续保持运行的方法</title><link href="https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run/" rel="alternate" type="text/html" title="关闭VirtualBox虚拟机界面时，虚拟机继续保持运行的方法" /><published>2019-08-26T18:11:11+08:00</published><updated>2019-08-26T19:00:02+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2019/08/26/virutalbox-daemon-run/">&lt;h2 id=&quot;本篇目录&quot;&gt;本篇目录&lt;/h2&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#本篇目录&quot; id=&quot;markdown-toc-本篇目录&quot;&gt;本篇目录&lt;/a&gt;&lt;/li&gt;
@@ -828,26 +840,4 @@ DBXYD-TF477-46YM4-W74MH-6YDQ8
 
 &lt;p&gt;VS12R47-UV192CD-QVQ70U6-BZ35CH6&lt;/p&gt;
 
-&lt;p&gt;VS12R55-UV227CD-H90SKN6-FRYAD83&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">说明 如果下面的序列号已经失效，可以考虑淘宝上的服务： 会声会影2019软件旗舰版注册码视频编辑制软件序列号绘声绘影软件【在售价】899.00 元 【立即下单】点击链接立即下单 会声会影是加拿大Corel公司制作的一款功能强大的视频编辑软件，正版英文名：Corel VideoStudio，具有图像抓取和编修功能，可以抓取，转换MV、DV、V8、TV和实时记录抓取画面文件，并提供有超过100 多种的编制功能与效果，可导出多种常见的视频格式，甚至可以直接制作成DVD和VCD光盘。 序列号 会声会影2019破解版序列号： VU22U22-6C96WHJ-6J3D66E-VNA9Y2G VU22U22-3D66WHJ-6J3D66E-VNA9Y2G 会声会影2019安装序列号。 VS11R13-UV111CD-39ELDS6-BZ24CH6 VS11R20-UV146CD-H39SKN6-BZ79CH6 VS11R33-UV271CD-QVQ67U6-BZ47CH6 VS11R46-UV191CD-QVQ69U6-BZ35CH6 VS11R54-UV226CD-H89SKN6-FRYAD83 VS12R14-UV112CD-40ELDS6-BZ24CH6 VS12R21-UV147CD-H40SKN6-BZ80CH6 VS12R34-UV272CD-QVQ68U6-BZ47CH6 VS12R47-UV192CD-QVQ70U6-BZ35CH6 VS12R55-UV227CD-H90SKN6-FRYAD83</summary></entry><entry><title type="html">数字文档管理软件 Nuance PaperPort Pro 14.5/9 正版注册码</title><link href="https://www.lijiaocn.com/skill/license/2019/07/20/paperport/" rel="alternate" type="text/html" title="数字文档管理软件 Nuance PaperPort Pro 14.5/9 正版注册码" /><published>2019-07-20T12:17:34+08:00</published><updated>2019-07-20T13:17:09+08:00</updated><id>https://www.lijiaocn.com/skill/license/2019/07/20/paperport</id><content type="html" xml:base="https://www.lijiaocn.com/skill/license/2019/07/20/paperport/">&lt;h2 id=&quot;本篇目录&quot;&gt;本篇目录&lt;/h2&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#本篇目录&quot; id=&quot;markdown-toc-本篇目录&quot;&gt;本篇目录&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#说明&quot; id=&quot;markdown-toc-说明&quot;&gt;说明&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
-
-&lt;p&gt;如果注册码失效，可以考虑使用淘宝上的服务：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;数字文档管理软件 Nuance PaperPort Pro 14.5/9 正版注册码【在售价】16.00 元&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://s.click.taobao.com/t?e=m%3D2%26s%3D9mtzcj1voG8cQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67iVQNwdnfEDWhEvvQe3dPn1FzjN9hD2WgqNloZYdv3EG6YKsWt4FgAKVoz8w%2F8flOF9EeTtntI440rU7bvMfl7HnFl8Jum2LE3ZBxYFlOV9iskmx5kiO8DpndR0CisZIhWrkkGxE5r53b9qJq5%2FOwEYMlu5kMKse3g%3D%3D&amp;amp;scm=null&amp;amp;pvid=null&amp;amp;app_pvid=59590_11.1.242.138_137997_1563596315015&amp;amp;ptl=floorId:17741;app_pvid:59590_11.1.242.138_137997_1563596315015&amp;amp;union_lens=lensId:0b8d12c1_0e67_16c0d98e0aa_ac50&quot;&gt;【立即下单】点击链接立即下单&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;世界第一的专业数码扫描管理工具，可在一瞬间完成文字图片到电子数码文档之间的转换。&lt;/p&gt;
-
-&lt;p&gt;新版Paperport 14为了更加方便用户进行文档汇编、排栈及非排栈的操作，它特意设计一款独特的、可分离的桌面，该桌面可同时显示个人主页及文档的缩微图，用户可利用它将整个PDF文档或部分PDF文档进行复制和粘贴，且当文字处理、电子表格或演示文件涉及到扫描图或普通图片时，桌面可自动将其转换为可定制PDF文档的快速汇编。&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 说明 如果注册码失效，可以考虑使用淘宝上的服务： 数字文档管理软件 Nuance PaperPort Pro 14.5/9 正版注册码【在售价】16.00 元 【立即下单】点击链接立即下单 世界第一的专业数码扫描管理工具，可在一瞬间完成文字图片到电子数码文档之间的转换。 新版Paperport 14为了更加方便用户进行文档汇编、排栈及非排栈的操作，它特意设计一款独特的、可分离的桌面，该桌面可同时显示个人主页及文档的缩微图，用户可利用它将整个PDF文档或部分PDF文档进行复制和粘贴，且当文字处理、电子表格或演示文件涉及到扫描图或普通图片时，桌面可自动将其转换为可定制PDF文档的快速汇编。</summary></entry></feed>
+&lt;p&gt;VS12R55-UV227CD-H90SKN6-FRYAD83&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">说明 如果下面的序列号已经失效，可以考虑淘宝上的服务： 会声会影2019软件旗舰版注册码视频编辑制软件序列号绘声绘影软件【在售价】899.00 元 【立即下单】点击链接立即下单 会声会影是加拿大Corel公司制作的一款功能强大的视频编辑软件，正版英文名：Corel VideoStudio，具有图像抓取和编修功能，可以抓取，转换MV、DV、V8、TV和实时记录抓取画面文件，并提供有超过100 多种的编制功能与效果，可导出多种常见的视频格式，甚至可以直接制作成DVD和VCD光盘。 序列号 会声会影2019破解版序列号： VU22U22-6C96WHJ-6J3D66E-VNA9Y2G VU22U22-3D66WHJ-6J3D66E-VNA9Y2G 会声会影2019安装序列号。 VS11R13-UV111CD-39ELDS6-BZ24CH6 VS11R20-UV146CD-H39SKN6-BZ79CH6 VS11R33-UV271CD-QVQ67U6-BZ47CH6 VS11R46-UV191CD-QVQ69U6-BZ35CH6 VS11R54-UV226CD-H89SKN6-FRYAD83 VS12R14-UV112CD-40ELDS6-BZ24CH6 VS12R21-UV147CD-H40SKN6-BZ80CH6 VS12R34-UV272CD-QVQ68U6-BZ47CH6 VS12R47-UV192CD-QVQ70U6-BZ35CH6 VS12R55-UV227CD-H90SKN6-FRYAD83</summary></entry></feed>
