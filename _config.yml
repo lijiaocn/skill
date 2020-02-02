@@ -2,6 +2,7 @@ name: "常用技巧&资源"
 url:  "https://www.lijiaocn.com"
 baseurl: "/skill"  
 img:  /img
+article: "/skill/img/article"
 logo: logo-112x112.jpg
 imgcdn: 
 Copyright: Copyright @2011-2019 All rights reserved.
