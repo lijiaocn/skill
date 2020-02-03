@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-02T19:16:53+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">Intellij IDEA 关闭拼写检查的方法</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect/" rel="alternate" type="text/html" title="Intellij IDEA 关闭拼写检查的方法" /><published>2020-02-02T19:03:09+08:00</published><updated>2020-02-02T19:03:09+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-03T10:56:14+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">解决方法 MySQL said: Authentication plugin ‘caching_sha2_password’ cannot be loaded</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error/" rel="alternate" type="text/html" title="解决方法 MySQL said: Authentication plugin 'caching_sha2_password' cannot be loaded" /><published>2020-02-02T20:44:32+08:00</published><updated>2020-02-02T20:44:32+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+
+&lt;p&gt;在命令行可以用 mysql 登陆，但是用 Sequel Pro 连接 mysql 时出现下面的错误：&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Unable to connect to host 127.0.0.1, or the request timed out.
+
+Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;currently 10 seconds&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+
+MySQL said: Authentication plugin &lt;span class=&quot;s1&quot;&gt;'caching_sha2_password'&lt;/span&gt; cannot be loaded: dlopen&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/usr/local/lib/plugin/caching_sha2_password.so, 2&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;: image not found
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/zhurong/p/9898675.html&quot; title=&quot;MySQL 连接出现 Authentication plugin 'caching_sha2_password' cannot be loaded&quot;&gt;文章&lt;/a&gt; 中说，mysql8 将密码加密机制由 mysql_native_password 改成了 caching_sha2_password。&lt;/p&gt;
+
+&lt;p&gt;最简单的方法是修改加密规则：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mysql&quot;&gt;ALTER USER 'gorm'@'%' IDENTIFIED WITH mysql_native_password BY 'password123';  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lijiaocn.com&quot; title=&quot;李佶澳的博客&quot;&gt;李佶澳的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>李佶澳</name></author><category term="mysql" /><summary type="html">说明 在命令行可以用 mysql 登陆，但是用 Sequel Pro 连接 mysql 时出现下面的错误： Unable to connect to host 127.0.0.1, or the request timed out. Be sure that the address is correct and that you have the necessary privileges, or try increasing the connection timeout (currently 10 seconds). MySQL said: Authentication plugin 'caching_sha2_password' cannot be loaded: dlopen(/usr/local/lib/plugin/caching_sha2_password.so, 2): image not found 文章 中说，mysql8 将密码加密机制由 mysql_native_password 改成了 caching_sha2_password。 最简单的方法是修改加密规则： ALTER USER 'gorm'@'%' IDENTIFIED WITH mysql_native_password BY 'password123'; 参考 李佶澳的博客</summary></entry><entry><title type="html">Intellij IDEA 关闭拼写检查的方法</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect/" rel="alternate" type="text/html" title="Intellij IDEA 关闭拼写检查的方法" /><published>2020-02-02T19:03:09+08:00</published><updated>2020-02-02T19:03:09+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/02/ideal-spell-inspect/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
 
 &lt;p&gt;Intellij IDEA 的拼写检查有时候很烦人，代码中的命名经常不是标准单词，IDEA 的拼写检查会给这些命名添加波浪线，导致外观很不清爽。建议关闭拼写检查功能：&lt;/p&gt;
 
@@ -797,47 +819,4 @@ DBXYD-TF477-46YM4-W74MH-6YDQ8
 
 &lt;p&gt;Solidworks2018破解补丁自带序列号，不用手动输入，安装的时候Solidworks2018就自带，注意Solidworks2018需要断网安装。&lt;/p&gt;
 
-&lt;p&gt;Solidworks2018破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1104.html&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">说明 如果注册码失效，可以考虑使用淘宝上的服务： 机械设计标准件螺丝等迈&amp;amp;迪工具注册码solidworks插件3D模型图库【在售价】12.00 元 【立即下单】点击链接立即下单 SolidWorks软件是世界上第一个基于Windows开发的三维CAD系统，使用了Windows OLE技术、直观式设计技术、先进的parasolid内核（由剑桥提供）以及良好的与第三方软件的集成技术，SolidWorks成为全球装机量最大、最好用的软件。 solidworks 注册码 Solidworks2006序列号： 9000 0099 9999 7937 NB8W P4KC Solidworks2007序列号： 9000 0099 9999 7937 NB8W P4KC Solidworks2008序列号： 0101 0000 1289 1488 R4H5 Q533 Solidworks2009序列号： 9916 5719 6888 1432 57K7 Q892 Solidworks2010序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2011序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2012序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2013序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2014序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2015序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2016序列号： Solidworks2016破解补丁自带序列号，不用手动输入，安装的时候Solidworks2016就自带，注意Solidworks2016需要断网安装。 Solidworks2016破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1102.html Solidworks2017序列号： Solidworks2017破解补丁自带序列号，不用手动输入，安装的时候Solidworks2017就自带，注意Solidworks2017需要断网安装。 Solidworks2017破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1103.html Solidworks2018序列号： Solidworks2018破解补丁自带序列号，不用手动输入，安装的时候Solidworks2018就自带，注意Solidworks2018需要断网安装。 Solidworks2018破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1104.html</summary></entry><entry><title type="html">会声会影2019软件旗舰版注册码视频编辑制软件序列号绘声绘影软件</title><link href="https://www.lijiaocn.com/skill/license/2019/07/20/huishenghuiying/" rel="alternate" type="text/html" title="会声会影2019软件旗舰版注册码视频编辑制软件序列号绘声绘影软件" /><published>2019-07-20T12:19:38+08:00</published><updated>2019-07-20T13:20:25+08:00</updated><id>https://www.lijiaocn.com/skill/license/2019/07/20/huishenghuiying</id><content type="html" xml:base="https://www.lijiaocn.com/skill/license/2019/07/20/huishenghuiying/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
-
-&lt;p&gt;如果下面的序列号已经失效，可以考虑淘宝上的服务：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;会声会影2019软件旗舰版注册码视频编辑制软件序列号绘声绘影软件【在售价】899.00 元&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://s.click.taobao.com/t?e=m%3D2%26s%3DK8gFSkA1TFEcQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67iVQNwdnfEDWUOZr0mLjusdFzjN9hD2WgqNloZYdv3EG6YKsWt4FgAKVoz8w%2F8flOF9EeTtntI440rU7bvMfl7HojR6%2F4dxHX%2FnDcM1As3aTskmx5kiO8DpndR0CisZIhRrLV8vPZXeJh04IIx4nytHPZMUUR31Kpg%3D%3D&amp;amp;scm=null&amp;amp;pvid=null&amp;amp;app_pvid=59590_11.1.242.137_81003_1563596346285&amp;amp;ptl=floorId:17741;app_pvid:59590_11.1.242.137_81003_1563596346285&amp;amp;union_lens=lensId:0b8d12c1_0e67_16c0d98e0aa_ac5a&quot;&gt;【立即下单】点击链接立即下单&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;会声会影是加拿大Corel公司制作的一款功能强大的视频编辑软件，正版英文名：Corel VideoStudio，具有图像抓取和编修功能，可以抓取，转换MV、DV、V8、TV和实时记录抓取画面文件，并提供有超过100 多种的编制功能与效果，可导出多种常见的视频格式，甚至可以直接制作成DVD和VCD光盘。&lt;/p&gt;
-
-&lt;h2 id=&quot;序列号&quot;&gt;序列号&lt;/h2&gt;
-
-&lt;p&gt;会声会影2019破解版序列号：&lt;/p&gt;
-
-&lt;p&gt;VU22U22-6C96WHJ-6J3D66E-VNA9Y2G&lt;/p&gt;
-
-&lt;p&gt;VU22U22-3D66WHJ-6J3D66E-VNA9Y2G&lt;/p&gt;
-
-&lt;p&gt;会声会影2019安装序列号。&lt;/p&gt;
-
-&lt;p&gt;VS11R13-UV111CD-39ELDS6-BZ24CH6&lt;/p&gt;
-
-&lt;p&gt;VS11R20-UV146CD-H39SKN6-BZ79CH6&lt;/p&gt;
-
-&lt;p&gt;VS11R33-UV271CD-QVQ67U6-BZ47CH6&lt;/p&gt;
-
-&lt;p&gt;VS11R46-UV191CD-QVQ69U6-BZ35CH6&lt;/p&gt;
-
-&lt;p&gt;VS11R54-UV226CD-H89SKN6-FRYAD83&lt;/p&gt;
-
-&lt;p&gt;VS12R14-UV112CD-40ELDS6-BZ24CH6&lt;/p&gt;
-
-&lt;p&gt;VS12R21-UV147CD-H40SKN6-BZ80CH6&lt;/p&gt;
-
-&lt;p&gt;VS12R34-UV272CD-QVQ68U6-BZ47CH6&lt;/p&gt;
-
-&lt;p&gt;VS12R47-UV192CD-QVQ70U6-BZ35CH6&lt;/p&gt;
-
-&lt;p&gt;VS12R55-UV227CD-H90SKN6-FRYAD83&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">说明 如果下面的序列号已经失效，可以考虑淘宝上的服务： 会声会影2019软件旗舰版注册码视频编辑制软件序列号绘声绘影软件【在售价】899.00 元 【立即下单】点击链接立即下单 会声会影是加拿大Corel公司制作的一款功能强大的视频编辑软件，正版英文名：Corel VideoStudio，具有图像抓取和编修功能，可以抓取，转换MV、DV、V8、TV和实时记录抓取画面文件，并提供有超过100 多种的编制功能与效果，可导出多种常见的视频格式，甚至可以直接制作成DVD和VCD光盘。 序列号 会声会影2019破解版序列号： VU22U22-6C96WHJ-6J3D66E-VNA9Y2G VU22U22-3D66WHJ-6J3D66E-VNA9Y2G 会声会影2019安装序列号。 VS11R13-UV111CD-39ELDS6-BZ24CH6 VS11R20-UV146CD-H39SKN6-BZ79CH6 VS11R33-UV271CD-QVQ67U6-BZ47CH6 VS11R46-UV191CD-QVQ69U6-BZ35CH6 VS11R54-UV226CD-H89SKN6-FRYAD83 VS12R14-UV112CD-40ELDS6-BZ24CH6 VS12R21-UV147CD-H40SKN6-BZ80CH6 VS12R34-UV272CD-QVQ68U6-BZ47CH6 VS12R47-UV192CD-QVQ70U6-BZ35CH6 VS12R55-UV227CD-H90SKN6-FRYAD83</summary></entry></feed>
+&lt;p&gt;Solidworks2018破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1104.html&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">说明 如果注册码失效，可以考虑使用淘宝上的服务： 机械设计标准件螺丝等迈&amp;amp;迪工具注册码solidworks插件3D模型图库【在售价】12.00 元 【立即下单】点击链接立即下单 SolidWorks软件是世界上第一个基于Windows开发的三维CAD系统，使用了Windows OLE技术、直观式设计技术、先进的parasolid内核（由剑桥提供）以及良好的与第三方软件的集成技术，SolidWorks成为全球装机量最大、最好用的软件。 solidworks 注册码 Solidworks2006序列号： 9000 0099 9999 7937 NB8W P4KC Solidworks2007序列号： 9000 0099 9999 7937 NB8W P4KC Solidworks2008序列号： 0101 0000 1289 1488 R4H5 Q533 Solidworks2009序列号： 9916 5719 6888 1432 57K7 Q892 Solidworks2010序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2011序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2012序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2013序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2014序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2015序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2016序列号： Solidworks2016破解补丁自带序列号，不用手动输入，安装的时候Solidworks2016就自带，注意Solidworks2016需要断网安装。 Solidworks2016破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1102.html Solidworks2017序列号： Solidworks2017破解补丁自带序列号，不用手动输入，安装的时候Solidworks2017就自带，注意Solidworks2017需要断网安装。 Solidworks2017破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1103.html Solidworks2018序列号： Solidworks2018破解补丁自带序列号，不用手动输入，安装的时候Solidworks2018就自带，注意Solidworks2018需要断网安装。 Solidworks2018破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1104.html</summary></entry></feed>
