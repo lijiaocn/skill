@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-03T10:56:14+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">解决方法 MySQL said: Authentication plugin ‘caching_sha2_password’ cannot be loaded</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error/" rel="alternate" type="text/html" title="解决方法 MySQL said: Authentication plugin 'caching_sha2_password' cannot be loaded" /><published>2020-02-02T20:44:32+08:00</published><updated>2020-02-02T20:44:32+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-14T09:51:34+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">Intelli Idea 设置 go mod 代理，加快从国内拉取 go module 的速度</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy/" rel="alternate" type="text/html" title="Intelli Idea 设置 go mod 代理，加快从国内拉取 go module 的速度" /><published>2020-02-14T09:40:39+08:00</published><updated>2020-02-14T09:40:39+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+
+&lt;p&gt;因为国内的网络环境，go mod tidy 获取依赖的 go module 要么经常失败，要么龟速。可以通过设置 go module 代理解决这个问题：&lt;a href=&quot;https://goproxy.io/&quot;&gt;https://goproxy.io/ &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;通过环境变量设置&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GOPROXY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;https://goproxy.io
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;在 Intelli Idea 中设置&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;Intelli Idea -&amp;gt; Preferences -&amp;gt; Languages &amp;amp; Frameworks -&amp;gt; Go -&amp;gt; Go Modules(vgo)，在 Proxy 中输入 https://goproxy.io：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/article/goproxy.png&quot; alt=&quot;Intelli Idea 设置 gorpxy&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lijiaocn.com&quot; title=&quot;李佶澳的博客&quot;&gt;李佶澳的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>李佶澳</name></author><category term="idea" /><summary type="html">说明 因为国内的网络环境，go mod tidy 获取依赖的 go module 要么经常失败，要么龟速。可以通过设置 go module 代理解决这个问题：https://goproxy.io/ 通过环境变量设置： export GOPROXY=https://goproxy.io 在 Intelli Idea 中设置： Intelli Idea -&amp;gt; Preferences -&amp;gt; Languages &amp;amp; Frameworks -&amp;gt; Go -&amp;gt; Go Modules(vgo)，在 Proxy 中输入 https://goproxy.io： 参考 李佶澳的博客</summary></entry><entry><title type="html">MySQL said: Authentication plugin ‘caching_sha2_password’ cannot be loaded</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error/" rel="alternate" type="text/html" title="MySQL said: Authentication plugin 'caching_sha2_password' cannot be loaded" /><published>2020-02-02T20:44:32+08:00</published><updated>2020-02-02T20:44:32+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/02/sequel-pro-connect-error/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
 
 &lt;p&gt;在命令行可以用 mysql 登陆，但是用 Sequel Pro 连接 mysql 时出现下面的错误：&lt;/p&gt;
 
@@ -746,77 +765,4 @@ DBXYD-TF477-46YM4-W74MH-6YDQ8
 
 &lt;h2 id=&quot;破解版下载&quot;&gt;破解版下载&lt;/h2&gt;
 
-&lt;p&gt;下载地址：&lt;a href=&quot;http://dx1.pc0359.cn/soft/K/ks2disk.rar&quot;&gt;KS线切割编程(附注册码) 3.57 完整破解版&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 破解版下载 说明 如果注册码失效，可以考虑使用淘宝上的服务： KS线切割专用编程软件（完整版)加密狗u盘版本，注册码版本3.83 【在售价】288.00 元 【立即下单】点击链接立即下单 适合做模具是朋友进行使用，兼容所有的线切割编程软件，采用了最新的误差隔离算法，数据更加的精确，KS线切割编程操作简单，使用方便 破解版下载 下载地址：KS线切割编程(附注册码) 3.57 完整破解版</summary></entry><entry><title type="html">solidworks注册码/序列号，solidworks插件3D模型图库</title><link href="https://www.lijiaocn.com/skill/license/2019/07/20/solidworks/" rel="alternate" type="text/html" title="solidworks注册码/序列号，solidworks插件3D模型图库" /><published>2019-07-20T12:23:20+08:00</published><updated>2019-07-20T13:39:12+08:00</updated><id>https://www.lijiaocn.com/skill/license/2019/07/20/solidworks</id><content type="html" xml:base="https://www.lijiaocn.com/skill/license/2019/07/20/solidworks/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
-
-&lt;p&gt;如果注册码失效，可以考虑使用淘宝上的服务：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;机械设计标准件螺丝等迈&amp;amp;迪工具注册码solidworks插件3D模型图库【在售价】12.00 元&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://s.click.taobao.com/t?e=m%3D2%26s%3DsPNcBIHXmn0cQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67l7cnCHj5sND6EFRCN7EKmxFzjN9hD2WgqNloZYdv3EG6YKsWt4FgAKVoz8w%2F8flOF9EeTtntI440rU7bvMfl7GHwjHVUNfRacmLcDgEgrBjotYzDcQ4SzIk3ajAyOG5%2FBMZjMnNmyTzXmdjWUy5bQXGDF1NzTQoPw%3D%3D&amp;amp;scm=null&amp;amp;pvid=null&amp;amp;app_pvid=59590_11.1.178.143_491_1563596612183&amp;amp;ptl=floorId:17741;app_pvid:59590_11.1.178.143_491_1563596612183&amp;amp;union_lens=lensId:0b8d12c1_0e67_16c0d98e0aa_ac63&quot;&gt;【立即下单】点击链接立即下单&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;SolidWorks软件是世界上第一个基于Windows开发的三维CAD系统，使用了Windows OLE技术、直观式设计技术、先进的parasolid内核（由剑桥提供）以及良好的与第三方软件的集成技术，SolidWorks成为全球装机量最大、最好用的软件。&lt;/p&gt;
-
-&lt;h2 id=&quot;solidworks-注册码&quot;&gt;solidworks 注册码&lt;/h2&gt;
-
-&lt;p&gt;Solidworks2006序列号：&lt;/p&gt;
-
-&lt;p&gt;9000 0099 9999 7937 NB8W P4KC&lt;/p&gt;
-
-&lt;p&gt;Solidworks2007序列号：&lt;/p&gt;
-
-&lt;p&gt;9000 0099 9999 7937 NB8W P4KC&lt;/p&gt;
-
-&lt;p&gt;Solidworks2008序列号：&lt;/p&gt;
-
-&lt;p&gt;0101 0000 1289 1488 R4H5 Q533&lt;/p&gt;
-
-&lt;p&gt;Solidworks2009序列号：&lt;/p&gt;
-
-&lt;p&gt;9916 5719 6888 1432 57K7 Q892&lt;/p&gt;
-
-&lt;p&gt;Solidworks2010序列号：&lt;/p&gt;
-
-&lt;p&gt;0001 0001 0736 0361 JK3Q HDJ3&lt;/p&gt;
-
-&lt;p&gt;Solidworks2011序列号：&lt;/p&gt;
-
-&lt;p&gt;0001 0001 0736 0361 JK3Q HDJ3&lt;/p&gt;
-
-&lt;p&gt;Solidworks2012序列号：&lt;/p&gt;
-
-&lt;p&gt;0001 0001 0736 0361 JK3Q HDJ3&lt;/p&gt;
-
-&lt;p&gt;Solidworks2013序列号：&lt;/p&gt;
-
-&lt;p&gt;0001 0001 0736 0361 JK3Q HDJ3&lt;/p&gt;
-
-&lt;p&gt;Solidworks2014序列号：&lt;/p&gt;
-
-&lt;p&gt;0001 0001 0736 0361 JK3Q HDJ3&lt;/p&gt;
-
-&lt;p&gt;Solidworks2015序列号：&lt;/p&gt;
-
-&lt;p&gt;0001 0001 0736 0361 JK3Q HDJ3&lt;/p&gt;
-
-&lt;p&gt;Solidworks2016序列号：&lt;/p&gt;
-
-&lt;p&gt;Solidworks2016破解补丁自带序列号，不用手动输入，安装的时候Solidworks2016就自带，注意Solidworks2016需要断网安装。&lt;/p&gt;
-
-&lt;p&gt;Solidworks2016破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1102.html&lt;/p&gt;
-
-&lt;p&gt;Solidworks2017序列号：&lt;/p&gt;
-
-&lt;p&gt;Solidworks2017破解补丁自带序列号，不用手动输入，安装的时候Solidworks2017就自带，注意Solidworks2017需要断网安装。&lt;/p&gt;
-
-&lt;p&gt;Solidworks2017破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1103.html&lt;/p&gt;
-
-&lt;p&gt;Solidworks2018序列号：&lt;/p&gt;
-
-&lt;p&gt;Solidworks2018破解补丁自带序列号，不用手动输入，安装的时候Solidworks2018就自带，注意Solidworks2018需要断网安装。&lt;/p&gt;
-
-&lt;p&gt;Solidworks2018破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1104.html&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">说明 如果注册码失效，可以考虑使用淘宝上的服务： 机械设计标准件螺丝等迈&amp;amp;迪工具注册码solidworks插件3D模型图库【在售价】12.00 元 【立即下单】点击链接立即下单 SolidWorks软件是世界上第一个基于Windows开发的三维CAD系统，使用了Windows OLE技术、直观式设计技术、先进的parasolid内核（由剑桥提供）以及良好的与第三方软件的集成技术，SolidWorks成为全球装机量最大、最好用的软件。 solidworks 注册码 Solidworks2006序列号： 9000 0099 9999 7937 NB8W P4KC Solidworks2007序列号： 9000 0099 9999 7937 NB8W P4KC Solidworks2008序列号： 0101 0000 1289 1488 R4H5 Q533 Solidworks2009序列号： 9916 5719 6888 1432 57K7 Q892 Solidworks2010序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2011序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2012序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2013序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2014序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2015序列号： 0001 0001 0736 0361 JK3Q HDJ3 Solidworks2016序列号： Solidworks2016破解补丁自带序列号，不用手动输入，安装的时候Solidworks2016就自带，注意Solidworks2016需要断网安装。 Solidworks2016破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1102.html Solidworks2017序列号： Solidworks2017破解补丁自带序列号，不用手动输入，安装的时候Solidworks2017就自带，注意Solidworks2017需要断网安装。 Solidworks2017破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1103.html Solidworks2018序列号： Solidworks2018破解补丁自带序列号，不用手动输入，安装的时候Solidworks2018就自带，注意Solidworks2018需要断网安装。 Solidworks2018破解版下载地址（自带破解补丁）：https://www.3d66.com/softhtml/showsoft_1104.html</summary></entry></feed>
+&lt;p&gt;下载地址：&lt;a href=&quot;http://dx1.pc0359.cn/soft/K/ks2disk.rar&quot;&gt;KS线切割编程(附注册码) 3.57 完整破解版&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 破解版下载 说明 如果注册码失效，可以考虑使用淘宝上的服务： KS线切割专用编程软件（完整版)加密狗u盘版本，注册码版本3.83 【在售价】288.00 元 【立即下单】点击链接立即下单 适合做模具是朋友进行使用，兼容所有的线切割编程软件，采用了最新的误差隔离算法，数据更加的精确，KS线切割编程操作简单，使用方便 破解版下载 下载地址：KS线切割编程(附注册码) 3.57 完整破解版</summary></entry></feed>
