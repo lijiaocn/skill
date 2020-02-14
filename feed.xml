@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-14T09:51:34+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">Intelli Idea 设置 go mod 代理，加快从国内拉取 go module 的速度</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy/" rel="alternate" type="text/html" title="Intelli Idea 设置 go mod 代理，加快从国内拉取 go module 的速度" /><published>2020-02-14T09:40:39+08:00</published><updated>2020-02-14T09:40:39+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://www.lijiaocn.com/skill/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.lijiaocn.com/skill/" rel="alternate" type="text/html" /><updated>2020-02-14T17:47:13+08:00</updated><id>https://www.lijiaocn.com/skill/feed.xml</id><title type="html">常用技巧&amp;amp;资源</title><entry><title type="html">Chrome 浏览器强行导入不可信任的证书（添加证书例外）</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/14/chrome-add-invalid-cert/" rel="alternate" type="text/html" title="Chrome 浏览器强行导入不可信任的证书（添加证书例外）" /><published>2020-02-14T17:31:34+08:00</published><updated>2020-02-14T17:31:34+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/14/chrome-add-invalid-cert</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/14/chrome-add-invalid-cert/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
+
+&lt;p&gt;Chrome 现在对于使用不信任证书的网页直接拒绝，不能在页面上点击添加例外：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/article/chrome-cert-1.png&quot; alt=&quot;证书无效，chrome禁止访问&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;下面是在 mac 上添加例外的方法，其它系统可能有区别。&lt;/p&gt;
+
+&lt;p&gt;打开 setting：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/article/chrome-cert-2.png&quot; alt=&quot;证书无效，chrome禁止访问&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;搜索 cert ，找到证书管理：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/article/chrome-cert-3.png&quot; alt=&quot;证书无效，chrome禁止访问&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;将目标网站使用的证书导入：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/article/chrome-cert-4.png&quot; alt=&quot;证书无效，chrome禁止访问&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;点击刚刚导入的证书-&amp;gt;点击 trust，设置为 always：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/skill/img/article/chrome-cert-5.png&quot; alt=&quot;证书无效，chrome禁止访问&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;点击 “X” 关闭时，提示输入系统密码，然后就可以了。&lt;/p&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lijiaocn.com&quot; title=&quot;李佶澳的博客&quot;&gt;李佶澳的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>李佶澳</name></author><category term="chrome" /><summary type="html">说明 Chrome 现在对于使用不信任证书的网页直接拒绝，不能在页面上点击添加例外： 下面是在 mac 上添加例外的方法，其它系统可能有区别。 打开 setting： 搜索 cert ，找到证书管理： 将目标网站使用的证书导入： 点击刚刚导入的证书-&amp;gt;点击 trust，设置为 always： 点击 “X” 关闭时，提示输入系统密码，然后就可以了。 参考 李佶澳的博客</summary></entry><entry><title type="html">Intelli Idea 设置 go mod 代理，加快从国内拉取 go module 的速度</title><link href="https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy/" rel="alternate" type="text/html" title="Intelli Idea 设置 go mod 代理，加快从国内拉取 go module 的速度" /><published>2020-02-14T09:40:39+08:00</published><updated>2020-02-14T09:40:39+08:00</updated><id>https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy</id><content type="html" xml:base="https://www.lijiaocn.com/skill/skill/2020/02/14/go-mod-proxy/">&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
 
 &lt;p&gt;因为国内的网络环境，go mod tidy 获取依赖的 go module 要么经常失败，要么龟速。可以通过设置 go module 代理解决这个问题：&lt;a href=&quot;https://goproxy.io/&quot;&gt;https://goproxy.io/ &lt;/a&gt;&lt;/p&gt;
 
@@ -740,29 +770,4 @@ DBXYD-TF477-46YM4-W74MH-6YDQ8
 
 &lt;p&gt;注册名：kuaiyun&lt;/p&gt;
 
-&lt;p&gt;注册码：9152C-84978-1A3E3-64290-992FD&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 注册码 说明 如果注册码失效，可以考虑使用淘宝上的服务： editplus中文正版注册码编辑器支持5.x版本永久英文版注册码 【在售价】3.80 元 【立即下单】点击链接立即下单 EditPlus是一款小巧但是功能强大的可处理文本、HTML和程序语言的Windows编辑器，你甚至可以通过设置用户工具将其作为C,Java,Php等等语言的一个简单的IDE，是一个相当棒又多用途多状态的编辑软件。 注册码 注册名：Vovan 序列号：3AG46-JJ48E-CEACC-8E6EW-ECUAW (亲测5.0 build 651 64bit可用，亲测5.1 build 1826 64bit可用） 注册名：host1991 序列号：14F50-CD5C8-E13DA-51100-BAFE6 注册名：360xw 注册码：93A52-85B80-A3308-BF130-40412 注册名：kariryo 注册码：5387D-12450-BCZ8B-D6W0B-85TE1 注册名：crsky 注册码：7879E-5BF58-7DR23-DAOB2-7DR30 注册名：zzidc 注册码：11276-E9720-D59E6-BD0E0-2965C 注册名：gainet 注册码：74E92-05B20-3D39C-90E5F-A55E8 注册名：kuaiyun 注册码：9152C-84978-1A3E3-64290-992FD</summary></entry><entry><title type="html">KS线切割专用编程软件（完整版)加密狗u盘版本，注册码版本3.83</title><link href="https://www.lijiaocn.com/skill/license/2019/07/20/ks/" rel="alternate" type="text/html" title="KS线切割专用编程软件（完整版)加密狗u盘版本，注册码版本3.83" /><published>2019-07-20T12:25:56+08:00</published><updated>2019-07-20T13:43:33+08:00</updated><id>https://www.lijiaocn.com/skill/license/2019/07/20/ks</id><content type="html" xml:base="https://www.lijiaocn.com/skill/license/2019/07/20/ks/">&lt;h2 id=&quot;本篇目录&quot;&gt;本篇目录&lt;/h2&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#本篇目录&quot; id=&quot;markdown-toc-本篇目录&quot;&gt;本篇目录&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#说明&quot; id=&quot;markdown-toc-说明&quot;&gt;说明&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#破解版下载&quot; id=&quot;markdown-toc-破解版下载&quot;&gt;破解版下载&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;说明&quot;&gt;说明&lt;/h2&gt;
-
-&lt;p&gt;如果注册码失效，可以考虑使用淘宝上的服务：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;KS线切割专用编程软件（完整版)加密狗u盘版本，注册码版本3.83 【在售价】288.00 元&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://s.click.taobao.com/t?e=m%3D2%26s%3DGDp5J1gvsF0cQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67iVkevqb1oimLzKPa%2Ff2nu9FzjN9hD2WgqNloZYdv3EG6YKsWt4FgAKVoz8w%2F8flOF9EeTtntI440rU7bvMfl7FuFnwb4xG2nC4W5MS%2B%2FGnLskmx5kiO8DpndR0CisZIhTKaRf6zlJfSMe%2B7TGjlMH0vfeUUl6%2F7pA%3D%3D&amp;amp;scm=null&amp;amp;pvid=null&amp;amp;app_pvid=59590_11.27.49.242_112471_1563596733670&amp;amp;ptl=floorId:17741;app_pvid:59590_11.27.49.242_112471_1563596733670&amp;amp;union_lens=lensId:0b8d12c1_0e67_16c0d98e0aa_ac64&quot;&gt;【立即下单】点击链接立即下单&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;适合做模具是朋友进行使用，兼容所有的线切割编程软件，采用了最新的误差隔离算法，数据更加的精确，KS线切割编程操作简单，使用方便&lt;/p&gt;
-
-&lt;h2 id=&quot;破解版下载&quot;&gt;破解版下载&lt;/h2&gt;
-
-&lt;p&gt;下载地址：&lt;a href=&quot;http://dx1.pc0359.cn/soft/K/ks2disk.rar&quot;&gt;KS线切割编程(附注册码) 3.57 完整破解版&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 破解版下载 说明 如果注册码失效，可以考虑使用淘宝上的服务： KS线切割专用编程软件（完整版)加密狗u盘版本，注册码版本3.83 【在售价】288.00 元 【立即下单】点击链接立即下单 适合做模具是朋友进行使用，兼容所有的线切割编程软件，采用了最新的误差隔离算法，数据更加的精确，KS线切割编程操作简单，使用方便 破解版下载 下载地址：KS线切割编程(附注册码) 3.57 完整破解版</summary></entry></feed>
+&lt;p&gt;注册码：9152C-84978-1A3E3-64290-992FD&lt;/p&gt;</content><author><name></name></author><category term="软件注册" /><summary type="html">本篇目录 本篇目录 说明 注册码 说明 如果注册码失效，可以考虑使用淘宝上的服务： editplus中文正版注册码编辑器支持5.x版本永久英文版注册码 【在售价】3.80 元 【立即下单】点击链接立即下单 EditPlus是一款小巧但是功能强大的可处理文本、HTML和程序语言的Windows编辑器，你甚至可以通过设置用户工具将其作为C,Java,Php等等语言的一个简单的IDE，是一个相当棒又多用途多状态的编辑软件。 注册码 注册名：Vovan 序列号：3AG46-JJ48E-CEACC-8E6EW-ECUAW (亲测5.0 build 651 64bit可用，亲测5.1 build 1826 64bit可用） 注册名：host1991 序列号：14F50-CD5C8-E13DA-51100-BAFE6 注册名：360xw 注册码：93A52-85B80-A3308-BF130-40412 注册名：kariryo 注册码：5387D-12450-BCZ8B-D6W0B-85TE1 注册名：crsky 注册码：7879E-5BF58-7DR23-DAOB2-7DR30 注册名：zzidc 注册码：11276-E9720-D59E6-BD0E0-2965C 注册名：gainet 注册码：74E92-05B20-3D39C-90E5F-A55E8 注册名：kuaiyun 注册码：9152C-84978-1A3E3-64290-992FD</summary></entry></feed>
