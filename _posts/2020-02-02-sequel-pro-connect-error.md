@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "解决方法 MySQL said: Authentication plugin 'caching_sha2_password' cannot be loaded" 
+title: "MySQL said: Authentication plugin 'caching_sha2_password' cannot be loaded" 
 author: 李佶澳
 date: "2020-02-02T20:44:32+0800"
 last_modified_at: "2020-02-02T20:44:32+0800"
